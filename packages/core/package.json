@@ -1,0 +1,45 @@
+{
+  "name": "@polyglot.js/core",
+  "version": "0.0.2",
+  "description": "A tiny I18n helper library written in TypeScript, made to work both in the browser and in CommonJS environments (Node).",
+  "author": "Salomão Neto <salomaosnff@yahoo.com>",
+  "license": "MIT",
+  "keywords": [
+    "i18n",
+    "internationalization",
+    "translate",
+    "translation",
+    "localization",
+    "polyglot",
+    "polyglot.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/salomaosnff/polyglot.js"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "example": "tsx ./example/index.ts",
+    "build": "unbuild",
+    "prepublish": "pnpm run build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "unbuild": "^2.0.0"
+  }
+}

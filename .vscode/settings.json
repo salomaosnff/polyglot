@@ -1,0 +1,8 @@
+{
+  "vue.codeActions.enabled": true,
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+}

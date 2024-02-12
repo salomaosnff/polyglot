@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@polyglot.js/core": "workspace:*",
+    "@polyglot.js/parser": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "yaml": "^2.3.4"
+  }
+}
